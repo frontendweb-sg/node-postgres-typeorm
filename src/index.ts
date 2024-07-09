@@ -3,6 +3,7 @@ config({ path: ".env" });
 import express from "express";
 import path from "path";
 import { db } from "./config/db";
+import "reflect-metadata";
 
 // app instance
 const app = express();
